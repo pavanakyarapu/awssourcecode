@@ -1,0 +1,1 @@
+aws cloudformation create-stack --stack-name StaticWebsitePipelineStack1 --template-body file://E:/Onedrive_Dilip/OneDrive/Desktop/py_api/Code_Pipeline/codepipelines3.yaml --parameters ParameterKey=GitHubToken,ParameterValue=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 --capabilities CAPABILITY_IAM
